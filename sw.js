@@ -47,7 +47,7 @@ this.addEventListener('install', function(event) {
   });
    
   function fallbackVersPageHorsLigne() {
-    return caches.match("horsligne.html");
+    return caches.match("/PWA-Labo3/horsligne.html");
    }
   
    // Ne fonctionne pas, comprends pas
