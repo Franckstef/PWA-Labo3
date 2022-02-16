@@ -4,7 +4,7 @@ this.addEventListener('install', function(event) {
         caches.open('v1').then(function(cache) {
           console.log('[Service Worker] Mise en cache globale: app shell et contenu et tout et tout');
           return cache.addAll([
-              'page1.html',
+              'index.html',
               'horsligne.html',
               'index.css',
               'index.js',
